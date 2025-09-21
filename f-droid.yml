@@ -1,0 +1,15 @@
+categories: Games
+description: "Open-source Spin the Bottle with HMS/GMS-free web IAP via Stripe"
+authors:
+  - name: Your Name
+    email: you@example.com
+license: MIT
+gradle:
+  app_module: app
+build:
+  pull:
+    url: https://example.com/your/repo.git
+    ref: main
+notes:
+  - Replace Config.kt keys and server .env with your credentials.
+  - Remove Stripe SDK if distributing without payment client code.
